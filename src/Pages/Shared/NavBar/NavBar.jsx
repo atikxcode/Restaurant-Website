@@ -1,11 +1,15 @@
+import { NavLink } from "react-router-dom";
 
 
 const NavBar = () => {
 
   const navOptions = <>
-        <li><a>Item 1</a></li>
-        <li><a>Parent</a></li>
-        <li><a>Item 3</a></li>
+        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/contact'>CONTACT US</NavLink></li>
+        <li><NavLink to='/dashboard'>DASHBOARD</NavLink></li>
+        <li><NavLink to='/menu'>OUR MENU</NavLink></li>
+        <li><NavLink to='/shop'>OUR SHOP</NavLink></li>
+       
   </>
 
   return (

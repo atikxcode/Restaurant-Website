@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import '../Testimonials/Testimonials2.css'
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import { useQuery } from '@tanstack/react-query';
 import SectionTitle from '../../Components/SectionTitle';
 

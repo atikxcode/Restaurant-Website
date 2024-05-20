@@ -2,7 +2,7 @@
 
 const SectionTitle = ({Heading, subHeading}) => {
   return (
-    <div className="mx-auto container">
+    <div className="mx-auto container my-20">
       <div className='flex flex-col gap-20 items-center'>
 
 

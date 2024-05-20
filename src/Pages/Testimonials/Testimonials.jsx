@@ -19,7 +19,7 @@ const Testimonials = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.</p>
             </div>
           <div>
-          <button className=" pt-[20px] pb-[20px] pr-[30px] pl-[30px] text-[#FFF] text-[20px] font-medium border-b-[3px] border-[#FFF] rounded-[8px] transition-all hover:border-t-[3px] hover:border-l-[3px] hover:border-r-[3px]">Read More</button>
+          <button className="py-[20px] px-[30px] text-white bg-inherit border-b-[3px] border-b-white rounded-xl font-bold transition-all duration-700 hover:bg-[#BB8506]">READ MORE</button>
           </div>
           </div>
         </div>

@@ -55,7 +55,8 @@ const PopularMenu = () => {
         </div>
 
         <div className='flex justify-center my-20'>
-         <button className=' pt-[20px] pb-[20px] pr-[30px] pl-[30px] text-[#1F2937] text-[20px] font-medium border-b-[3px] border-[#1F2937] rounded-[8px] transition-all  hover:border-[3px]'>VIEW FULL MENU</button>
+        <button className="py-[20px] px-[30px] text-black bg-inherit border-b-[3px] border-b-black rounded-xl font-bold transition-all duration-700 hover:bg-[#BB8506] hover:text-white" >VIEW FULL MENU</button>
+
         </div>
 
         <div className='bg-[#151515] text-white flex justify-center items-center h-[250px]'>
