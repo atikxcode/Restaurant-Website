@@ -7,7 +7,7 @@ const Recommends = () => {
   const {isPending, isError, error,  data: menus} = useQuery({
     queryKey: ['recomended'],
     queryFn: async () => {
-      const res = await fetch('/public/menu.json')
+      const res = await fetch('http://localhost:5000/menu')
       
       return res.json();
       
